@@ -240,7 +240,7 @@ $pc-screen: 1140px;
     padding: 1rem;
 
     .heading {
-      line-height: 60px;
+      line-height: 50px;
       margin-bottom: 30px;
 
       h1 {
@@ -249,7 +249,7 @@ $pc-screen: 1140px;
         }
 
         &:nth-child(2) {
-          font-size: 5rem;
+          font-size: 4rem;
         }
       }
     }
@@ -261,12 +261,20 @@ $pc-screen: 1140px;
   }
 
   .projectSection {
+    padding: 20px;
+
+    .projectTitle {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+
     .listProjects {
       .project {
         display: grid;
         grid-template-columns: repeat(1, 100%);
 
-        .projectDesc{
+        .projectDesc {
           padding-right: 0;
         }
       }
