@@ -3,7 +3,7 @@
 <p><b> Welcome to Ridlo's Portfolio</b>
 Hello there! I'm Ridlo, a passionate and detail-oriented front-end developer with a love for creating seamless and visually appealing user experiences. This is my digital space where I showcase my journey, skills, and the projects I've poured my heart into.</p>
 
-👉 Live Demo: <a href='https://gymsync.vercel.app/'>Portofolio Demo</a>
+👉 Live Demo: <a href='https://portofolio-three-lake.vercel.app/'>Portofolio Demo</a>
 
 <h3>Build with:</h3>
 
