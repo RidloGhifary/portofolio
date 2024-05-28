@@ -143,7 +143,7 @@ $primary-white: #cfd0d5;
       .skillsList {
         background-color: $secondary-color;
         color: white;
-        padding: 8px;
+        padding: 8px 10px;
         border-radius: 8px;
       }
     }
@@ -160,6 +160,7 @@ $primary-white: #cfd0d5;
     margin: 5rem 0;
 
     h1 {
+      font-family: "Kalnia", serif;
       font-size: 6rem;
       font-weight: 900;
       text-transform: uppercase;
@@ -167,7 +168,7 @@ $primary-white: #cfd0d5;
       &:last-child {
         -webkit-text-stroke: 1px $primary-white;
         -moz-text-stroke: 1px $primary-white;
-        text-stroke: 1px $primary-white;
+        -ms-text-stroke: 1px $primary-white;
         color: transparent;
       }
     }
@@ -225,10 +226,11 @@ $primary-white: #cfd0d5;
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 12px;
         // padding-right: 20px;
 
         h1 {
+          font-family: "Kalnia", serif;
           color: $secondary-color;
           font-size: 2rem;
         }
